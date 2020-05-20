@@ -31,6 +31,7 @@ function dragElement(terrariumElement) {
 		console.log(e);
 		// get the initial mouse cursor position for pos3 and pos4
 		pos3 = e.clientX;
+		//3. set pos4 to be e's clientY
 		pos4 = e.clientY;
 		// when the mouse moves, start the drag
 		document.onpointermove = elementDrag;
